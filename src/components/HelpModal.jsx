@@ -1,5 +1,6 @@
 function HelpModal({ onClose }) {
   const repos = [
+    { name: 'DTIS Portal', github: 'https://github.com/willmac1wm/atc-etc-portal', local: '/Users/williammacomber/Projects/atc-etc-portal' },
     { name: 'Open Stars', github: 'https://github.com/willmac1wm/openstars-emulator', local: '/Users/williammacomber/Projects/openstars' },
     { name: 'Listing Pixl', github: 'https://github.com/willmac1wm/listingpixl', local: '/Users/williammacomber/Projects/listingpixl' },
     { name: 'ETC Website', github: 'https://github.com/willmac1wm/etc-website', local: '/Users/williammacomber/Projects/etc-website' },

@@ -142,6 +142,16 @@ const PRODUCTION_APPS = [
     openInNewTab: true,
     createdAt: new Date().toISOString()
   },
+  {
+    id: '13',
+    name: 'DTIS Portal',
+    description: 'Della Terra Insù - Daily Log & FDTS Tools',
+    url: 'https://atc-etc.com',
+    projectPath: '/Users/williammacomber/Projects/atc-etc-portal',
+    category: 'Work',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
   // === DEVELOPER TOOLS ===
   {
     id: '7',
