@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import AppCard from './components/AppCard'
 import AddAppModal from './components/AddAppModal'
+import HelpModal from './components/HelpModal'
 
 // Check if running locally or in production
 const isLocalhost = typeof window !== 'undefined' && window.location.hostname === 'localhost'
@@ -207,6 +208,7 @@ const DEFAULT_APPS = isLocalhost
 function App() {
   const [apps, setApps] = useState([])
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isHelpOpen, setIsHelpOpen] = useState(false)
   const [editingApp, setEditingApp] = useState(null)
 
   // Load apps from localStorage on mount, or use defaults
@@ -278,7 +280,7 @@ function App() {
           </p>
         </header>
 
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-center gap-4 mb-8">
           <button
             onClick={() => setIsModalOpen(true)}
             className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-200 transform hover:scale-105 flex items-center gap-2"
@@ -287,6 +289,15 @@ function App() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
             </svg>
             Add New App
+          </button>
+          <button
+            onClick={() => setIsHelpOpen(true)}
+            className="bg-slate-700 hover:bg-slate-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-200 transform hover:scale-105 flex items-center gap-2 border border-purple-500/30"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+            Developer Info
           </button>
         </div>
 
@@ -319,6 +330,10 @@ function App() {
             onSave={editingApp ? handleEditApp : handleAddApp}
             onClose={handleCloseModal}
           />
+        )}
+
+        {isHelpOpen && (
+          <HelpModal onClose={() => setIsHelpOpen(false)} />
         )}
       </div>
     </div>
