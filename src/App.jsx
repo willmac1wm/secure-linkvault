@@ -80,18 +80,74 @@ const LOCAL_APPS = [
 ]
 
 const PRODUCTION_APPS = [
+  // === YOUR DEPLOYED APPS ===
   {
     id: '1',
+    name: 'Open Stars',
+    description: 'Air Traffic Control Radar Emulator Game',
+    url: 'https://openstars-emulator.vercel.app',
+    category: 'Games',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '2',
+    name: 'ATC ETC',
+    description: 'Essential Trade Contractors - Official Site',
+    url: 'https://www.atc-etc.com',
+    category: 'Business',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '3',
+    name: 'Listing Pixl',
+    description: 'Cape May Real Estate Photography',
+    url: 'https://listingpixl.vercel.app',
+    category: 'Business',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '4',
+    name: 'ETC Website',
+    description: 'Essential Trade Contractors Website',
+    url: 'https://etc-website-ready.vercel.app',
+    category: 'Business',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '5',
+    name: 'FDTS Brain',
+    description: 'FDTS Adaptation Specialist - AI Data Extraction',
+    url: 'https://brain-weld-five.vercel.app',
+    category: 'AI Tools',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '6',
+    name: 'FDTS Assistant',
+    description: 'FDTS Assistant Tool',
+    url: 'https://fdts-assistant-zip.vercel.app',
+    category: 'Tools',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  // === DEVELOPER TOOLS ===
+  {
+    id: '7',
     name: 'GitHub',
     description: 'Your GitHub repositories',
-    url: 'https://github.com',
+    url: 'https://github.com/willmac1wm',
     icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
     category: 'Development',
     openInNewTab: true,
     createdAt: new Date().toISOString()
   },
   {
-    id: '2',
+    id: '8',
     name: 'Vercel',
     description: 'Deployment & Hosting Platform',
     url: 'https://vercel.com/dashboard',
@@ -101,7 +157,7 @@ const PRODUCTION_APPS = [
     createdAt: new Date().toISOString()
   },
   {
-    id: '3',
+    id: '9',
     name: 'Netlify',
     description: 'Web Hosting & Automation',
     url: 'https://app.netlify.com',
@@ -110,8 +166,9 @@ const PRODUCTION_APPS = [
     openInNewTab: true,
     createdAt: new Date().toISOString()
   },
+  // === AI TOOLS ===
   {
-    id: '4',
+    id: '10',
     name: 'Google AI Studio',
     description: 'Build with Gemini AI',
     url: 'https://aistudio.google.com',
@@ -121,7 +178,7 @@ const PRODUCTION_APPS = [
     createdAt: new Date().toISOString()
   },
   {
-    id: '5',
+    id: '11',
     name: 'ChatGPT',
     description: 'OpenAI Chat Assistant',
     url: 'https://chat.openai.com',
@@ -131,7 +188,7 @@ const PRODUCTION_APPS = [
     createdAt: new Date().toISOString()
   },
   {
-    id: '6',
+    id: '12',
     name: 'Claude',
     description: 'Anthropic AI Assistant',
     url: 'https://claude.ai',
