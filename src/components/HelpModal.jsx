@@ -1,12 +1,12 @@
 function HelpModal({ onClose }) {
   const repos = [
-    { name: 'Open Stars', github: 'https://github.com/willmac1wm/openstars-emulator', local: '/Users/williammacomber/Downloads/openstars-emulator' },
-    { name: 'Listing Pixl', github: 'https://github.com/willmac1wm/listingpixl', local: '/Users/williammacomber/Downloads/listingpixl' },
-    { name: 'ETC Website', github: 'https://github.com/willmac1wm/etc-website', local: '/Users/williammacomber/Downloads/etc-website-ready' },
-    { name: 'FDTS Brain', github: 'https://github.com/willmac1wm/fdts-brain', local: '/Users/williammacomber/Downloads/brain' },
-    { name: 'Secure LinkVault', github: 'https://github.com/willmac1wm/secure-linkvault', local: '/Users/williammacomber/Downloads/secure-linkvault (2)' },
-    { name: 'Air Traffic Expert', github: 'https://github.com/willmac1wm/airtrafficexpert-site', local: '/Users/williammacomber/Downloads/airtrafficexpert-nextjs' },
-    { name: 'ATC Deploy', github: 'https://github.com/willmac1wm/atc-rag', local: '/Users/williammacomber/Downloads/ATC_DEPLOY' },
+    { name: 'Open Stars', github: 'https://github.com/willmac1wm/openstars-emulator', local: '/Users/williammacomber/Projects/openstars' },
+    { name: 'Listing Pixl', github: 'https://github.com/willmac1wm/listingpixl', local: '/Users/williammacomber/Projects/listingpixl' },
+    { name: 'ETC Website', github: 'https://github.com/willmac1wm/etc-website', local: '/Users/williammacomber/Projects/etc-website' },
+    { name: 'FDTS Brain', github: 'https://github.com/willmac1wm/fdts-brain', local: '/Users/williammacomber/Projects/fdts-brain' },
+    { name: 'Secure LinkVault', github: 'https://github.com/willmac1wm/secure-linkvault', local: '/Users/williammacomber/Projects/secure-linkvault' },
+    { name: 'Air Traffic Expert', github: 'https://github.com/willmac1wm/airtrafficexpert-site', local: '/Users/williammacomber/Projects/airtrafficexpert' },
+    { name: 'ATC Deploy', github: 'https://github.com/willmac1wm/atc-rag', local: '/Users/williammacomber/Projects/atc-deploy' },
   ]
 
   const copyToClipboard = (text) => {
@@ -48,9 +48,9 @@ function HelpModal({ onClose }) {
                 <div>
                   <p className="font-semibold">Copy and paste this command:</p>
                   <div className="flex items-center gap-2 mt-2">
-                    <code className="bg-black/50 p-3 rounded text-green-400 text-sm flex-1 block">cd ~/Downloads/secure-linkvault\ \(2\) && npm run dev</code>
+                    <code className="bg-black/50 p-3 rounded text-green-400 text-sm flex-1 block">cd ~/Projects/secure-linkvault && npm run dev</code>
                     <button 
-                      onClick={() => copyToClipboard('cd ~/Downloads/secure-linkvault\\ \\(2\\) && npm run dev')}
+                      onClick={() => copyToClipboard('cd ~/Projects/secure-linkvault && npm run dev')}
                       className="bg-green-600 hover:bg-green-500 text-white px-3 py-2 rounded font-semibold text-sm"
                     >
                       COPY
@@ -188,7 +188,7 @@ function HelpModal({ onClose }) {
 
           {/* Footer */}
           <div className="text-center text-gray-400 text-sm border-t border-gray-700 pt-4">
-            <p>All your projects are in: <code className="text-purple-400">~/Downloads/</code></p>
+            <p>All your projects are in: <code className="text-purple-400">~/Projects/</code></p>
             <p className="mt-1">Your GitHub: <a href="https://github.com/willmac1wm" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300">github.com/willmac1wm</a></p>
           </div>
         </div>
