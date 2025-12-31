@@ -87,6 +87,7 @@ const PRODUCTION_APPS = [
     name: 'Open Stars',
     description: 'Air Traffic Control Radar Emulator Game',
     url: 'https://openstars-emulator.vercel.app',
+    projectPath: '/Users/williammacomber/Downloads/openstars-emulator',
     category: 'Games',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -96,6 +97,7 @@ const PRODUCTION_APPS = [
     name: 'ATC ETC',
     description: 'Essential Trade Contractors - Official Site',
     url: 'https://www.atc-etc.com',
+    projectPath: '/Users/williammacomber/Downloads/etc-website-ready',
     category: 'Business',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -105,6 +107,7 @@ const PRODUCTION_APPS = [
     name: 'Listing Pixl',
     description: 'Cape May Real Estate Photography',
     url: 'https://listingpixl.vercel.app',
+    projectPath: '/Users/williammacomber/Downloads/listingpixl',
     category: 'Business',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -114,6 +117,7 @@ const PRODUCTION_APPS = [
     name: 'ETC Website',
     description: 'Essential Trade Contractors Website',
     url: 'https://etc-website-ready.vercel.app',
+    projectPath: '/Users/williammacomber/Downloads/etc-website-ready',
     category: 'Business',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -123,6 +127,7 @@ const PRODUCTION_APPS = [
     name: 'FDTS Brain',
     description: 'FDTS Adaptation Specialist - AI Data Extraction',
     url: 'https://brain-weld-five.vercel.app',
+    projectPath: '/Users/williammacomber/Downloads/brain',
     category: 'AI Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -132,6 +137,7 @@ const PRODUCTION_APPS = [
     name: 'FDTS Assistant',
     description: 'FDTS Assistant Tool',
     url: 'https://fdts-assistant-zip.vercel.app',
+    projectPath: '/Users/williammacomber/Downloads/ATC_DEPLOY',
     category: 'Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
