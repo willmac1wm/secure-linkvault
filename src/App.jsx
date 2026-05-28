@@ -77,6 +77,57 @@ const LOCAL_APPS = [
     category: 'Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
+  },
+  {
+    id: '8',
+    name: 'Zulu Pro',
+    description: 'Aviation Time & Mission Intel',
+    url: 'http://localhost:5173/zulu-pro',
+    projectPath: '/Users/williammacomber/airtrafficexpert-site',
+    category: 'Tools',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '9',
+    name: 'National FDTS Assistant',
+    description: 'National dashboard and adaptation tool for FDTS',
+    url: 'http://localhost:5173',
+    projectPath: '/Users/williammacomber/Desktop/Adaptation',
+    category: 'Development',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '10',
+    name: 'National FDTS Assistant (Deployed)',
+    description: 'National dashboard and adaptation tool for FDTS (Live Version)',
+    url: 'https://fdts-adaptation-tool.netlify.app/',
+    projectPath: '/Users/williammacomber/Desktop/Adaptation',
+    category: 'Tools',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '11',
+    name: 'FDTS Repo (GitHub)',
+    description: 'Source Code for the National FDTS Assistant',
+    url: 'https://github.com/willmac1wm/FDTS-Adaptation-Tool',
+    icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
+    projectPath: '/Users/williammacomber/Desktop/Adaptation',
+    category: 'Development',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '12',
+    name: 'WorldView',
+    description: 'Geospatial Intelligence Command Center — Live satellites, flights, vessels & TFRs',
+    url: 'http://localhost:8080/worldview.html',
+    projectPath: '/Users/williammacomber/Desktop/WorldView',
+    category: 'Tools',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
   }
 ]
 
@@ -213,12 +264,64 @@ const PRODUCTION_APPS = [
     category: 'AI Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
+  },
+  // === YOUR APPS ===
+  {
+    id: '14',
+    name: 'Zulu Pro',
+    description: 'Tactical Aviation Timekeeping & Mission Intel',
+    url: 'https://zulu-time-web-deploy.vercel.app',
+    projectPath: '/Users/williammacomber/airtrafficexpert-site',
+    category: 'Tools',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '15',
+    name: 'National FDTS Assistant',
+    description: 'National dashboard and adaptation tool for FDTS',
+    url: 'https://fdts-adaptation-tool.netlify.app/',
+    projectPath: '/Users/williammacomber/Desktop/Adaptation',
+    category: 'Tools',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '16',
+    name: 'National FDTS Assistant (Deployed)',
+    description: 'National dashboard and adaptation tool for FDTS (Live Version)',
+    url: 'https://fdts-adaptation-tool.netlify.app/',
+    projectPath: '/Users/williammacomber/Desktop/Adaptation',
+    category: 'Tools',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '17',
+    name: 'FDTS Repo (GitHub)',
+    description: 'Source Code for the National FDTS Assistant',
+    url: 'https://github.com/willmac1wm/FDTS-Adaptation-Tool',
+    icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
+    projectPath: '/Users/williammacomber/Desktop/Adaptation',
+    category: 'Development',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: '18',
+    name: 'WorldView',
+    description: 'Geospatial Intelligence Command Center - local project',
+    url: 'https://github.com/willmac1wm',
+    projectPath: '/Users/williammacomber/Desktop/WorldView',
+    category: 'Development',
+    openInNewTab: true,
+    createdAt: new Date().toISOString()
   }
 ]
 
 // Combine local and production apps when running locally
-const DEFAULT_APPS = isLocalhost 
-  ? [...LOCAL_APPS, ...PRODUCTION_APPS.slice(0, 2)] 
+const DEFAULT_APPS = isLocalhost
+  ? [...LOCAL_APPS, ...PRODUCTION_APPS.slice(0, 2)]
   : PRODUCTION_APPS
 
 function App() {
@@ -261,7 +364,7 @@ function App() {
   }
 
   const handleEditApp = (appData) => {
-    setApps(apps.map(app => 
+    setApps(apps.map(app =>
       app.id === editingApp.id ? { ...app, ...appData } : app
     ))
     setEditingApp(null)
@@ -371,4 +474,3 @@ function App() {
 }
 
 export default App
-
