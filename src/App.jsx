@@ -93,7 +93,7 @@ const LOCAL_APPS = [
     name: 'National FDTS Assistant',
     description: 'National dashboard and adaptation tool for FDTS',
     url: 'http://localhost:5173',
-    projectPath: '/Users/williammacomber/.gemini/antigravity/scratch/worldview',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/worldview',
     category: 'Development',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -113,7 +113,7 @@ const LOCAL_APPS = [
     name: 'WorldView',
     description: 'Geospatial Intelligence Command Center — Live satellites, flights, vessels & TFRs',
     url: 'http://localhost:8080/worldview.html',
-    projectPath: '/Users/williammacomber/.gemini/antigravity/scratch/worldview',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/worldview',
     category: 'Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -184,14 +184,6 @@ const PRODUCTION_APPS = [
     description: 'Listing Pixl - 2026 rebuild',
     url: 'https://listingpixl-2026.vercel.app',
     projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/listingpixl',
-    category: 'Business',
-    openInNewTab: true
-  },
-  {
-    id: 'photo-admin',
-    name: 'Photo Admin',
-    description: 'Listing Pixl photo administration',
-    url: 'https://photo-admin.vercel.app',
     category: 'Business',
     openInNewTab: true
   },
@@ -267,7 +259,7 @@ const PRODUCTION_APPS = [
     description: 'Source for the National FDTS Assistant',
     url: 'https://github.com/willmac1wm/FDTS-Adaptation-Tool',
     icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
-    projectPath: '/Users/williammacomber/.gemini/antigravity/scratch/worldview',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/worldview',
     category: 'Development',
     openInNewTab: true
   },
@@ -303,7 +295,7 @@ const PRODUCTION_APPS = [
     name: 'WorldView',
     description: 'Geospatial Intelligence Command Center',
     url: 'https://github.com/willmac1wm',
-    projectPath: '/Users/williammacomber/.gemini/antigravity/scratch/worldview',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/worldview',
     category: 'Development',
     openInNewTab: true
   },
@@ -314,6 +306,15 @@ const PRODUCTION_APPS = [
     description: 'This app launcher (self-link)',
     url: 'https://secure-linkvault.vercel.app',
     projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/secure-linkvault',
+    category: 'Tools',
+    openInNewTab: true
+  },
+  {
+    id: 'resolve-ai',
+    name: 'ResolveAI',
+    description: 'Rewrite Your Relationship - couples app',
+    url: 'https://resolve-ai-one.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/ResolveAI-App',
     category: 'Tools',
     openInNewTab: true
   },
