@@ -1,13 +1,13 @@
 function HelpModal({ onClose }) {
   const repos = [
-    { name: 'DTIS Portal', github: 'https://github.com/willmac1wm/atc-etc-portal', local: '/Users/williammacomber/Projects/atc-etc-portal' },
-    { name: 'Open Stars', github: 'https://github.com/willmac1wm/openstars-emulator', local: '/Users/williammacomber/Projects/openstars' },
-    { name: 'Listing Pixl', github: 'https://github.com/willmac1wm/listingpixl', local: '/Users/williammacomber/Projects/listingpixl' },
-    { name: 'ETC Website', github: 'https://github.com/willmac1wm/etc-website', local: '/Users/williammacomber/Projects/etc-website' },
-    { name: 'FDTS Brain', github: 'https://github.com/willmac1wm/fdts-brain', local: '/Users/williammacomber/Projects/fdts-brain' },
-    { name: 'Secure LinkVault', github: 'https://github.com/willmac1wm/secure-linkvault', local: '/Users/williammacomber/Projects/secure-linkvault' },
-    { name: 'Air Traffic Expert', github: 'https://github.com/willmac1wm/airtrafficexpert-site', local: '/Users/williammacomber/Projects/airtrafficexpert' },
-    { name: 'ATC Deploy', github: 'https://github.com/willmac1wm/atc-rag', local: '/Users/williammacomber/Projects/atc-deploy' },
+    { name: 'DTIS Portal', github: 'https://github.com/willmac1wm/atc-etc-portal', local: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/atc-etc-portal' },
+    { name: 'Open Stars', github: 'https://github.com/willmac1wm/openstars-emulator', local: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/openstars' },
+    { name: 'Listing Pixl', github: 'https://github.com/willmac1wm/listingpixl', local: '/Users/williammacomber/Desktop/_Dev_Projects/listing-pixl' },
+    { name: 'ETC Website', github: 'https://github.com/willmac1wm/etc-website', local: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/etc-website' },
+    { name: 'FDTS Brain', github: 'https://github.com/willmac1wm/fdts-brain', local: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/fdts-brain' },
+    { name: 'Secure LinkVault', github: 'https://github.com/willmac1wm/secure-linkvault', local: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/secure-linkvault' },
+    { name: 'Air Traffic Expert', github: 'https://github.com/willmac1wm/airtrafficexpert-site', local: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/airtrafficexpert-site' },
+    { name: 'ATC Deploy', github: 'https://github.com/willmac1wm/atc-rag', local: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/atc-deploy' },
   ]
 
   const copyToClipboard = (text) => {
