@@ -13,7 +13,7 @@ const LOCAL_APPS = [
     name: 'Open Stars',
     description: 'Air Traffic Control Radar Emulator Game',
     url: 'http://localhost:5174',
-    projectPath: '/Users/williammacomber/Projects/openstars',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/openstars',
     category: 'Games',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -23,7 +23,7 @@ const LOCAL_APPS = [
     name: 'Air Traffic Expert',
     description: 'Next.js Air Traffic Control Expert Portal',
     url: 'http://localhost:3000',
-    projectPath: '/Users/williammacomber/Projects/airtrafficexpert',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/airtrafficexpert-site',
     category: 'Development',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -33,7 +33,7 @@ const LOCAL_APPS = [
     name: 'Listing Pixl',
     description: 'Cape May Real Estate Photography',
     url: 'http://localhost:3001',
-    projectPath: '/Users/williammacomber/Projects/listingpixl',
+    projectPath: '/Users/williammacomber/Desktop/_Dev_Projects/listing-pixl',
     category: 'Business',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -43,7 +43,7 @@ const LOCAL_APPS = [
     name: 'Essential Trade Contractors',
     description: 'ETC Website - Trade Contractor Services',
     url: 'http://localhost:3002',
-    projectPath: '/Users/williammacomber/Projects/etc-website',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/etc-website',
     category: 'Business',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -53,7 +53,7 @@ const LOCAL_APPS = [
     name: 'ATC Deploy',
     description: 'Air Traffic Control Deployment System',
     url: 'http://localhost:3003',
-    projectPath: '/Users/williammacomber/Projects/atc-deploy',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/atc-deploy',
     category: 'Development',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -63,7 +63,7 @@ const LOCAL_APPS = [
     name: 'FDTS Brain',
     description: 'FDTS Adaptation Specialist - AI Data Extraction',
     url: 'http://localhost:5175',
-    projectPath: '/Users/williammacomber/Projects/fdts-brain',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/fdts-brain',
     category: 'AI Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -73,7 +73,7 @@ const LOCAL_APPS = [
     name: 'Secure LinkVault',
     description: 'This App Launcher',
     url: 'http://localhost:5173',
-    projectPath: '/Users/williammacomber/Projects/secure-linkvault',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/secure-linkvault',
     category: 'Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -83,7 +83,7 @@ const LOCAL_APPS = [
     name: 'Zulu Pro',
     description: 'Aviation Time & Mission Intel',
     url: 'http://localhost:5173/zulu-pro',
-    projectPath: '/Users/williammacomber/airtrafficexpert-site',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/Zulu-time-',
     category: 'Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -93,7 +93,7 @@ const LOCAL_APPS = [
     name: 'National FDTS Assistant',
     description: 'National dashboard and adaptation tool for FDTS',
     url: 'http://localhost:5173',
-    projectPath: '/Users/williammacomber/Desktop/Adaptation',
+    projectPath: '/Users/williammacomber/.gemini/antigravity/scratch/worldview',
     category: 'Development',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -103,7 +103,7 @@ const LOCAL_APPS = [
     name: 'National FDTS Assistant (Deployed)',
     description: 'National dashboard and adaptation tool for FDTS (Live Version)',
     url: 'https://fdts-adaptation-tool.netlify.app/',
-    projectPath: '/Users/williammacomber/Desktop/Adaptation',
+    projectPath: '/Users/williammacomber/.gemini/antigravity/scratch/worldview',
     category: 'Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -114,7 +114,6 @@ const LOCAL_APPS = [
     description: 'Source Code for the National FDTS Assistant',
     url: 'https://github.com/willmac1wm/FDTS-Adaptation-Tool',
     icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
-    projectPath: '/Users/williammacomber/Desktop/Adaptation',
     category: 'Development',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -124,7 +123,7 @@ const LOCAL_APPS = [
     name: 'WorldView',
     description: 'Geospatial Intelligence Command Center — Live satellites, flights, vessels & TFRs',
     url: 'http://localhost:8080/worldview.html',
-    projectPath: '/Users/williammacomber/Desktop/WorldView',
+    projectPath: '/Users/williammacomber/.gemini/antigravity/scratch/worldview',
     category: 'Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -132,190 +131,266 @@ const LOCAL_APPS = [
 ]
 
 const PRODUCTION_APPS = [
-  // === YOUR DEPLOYED APPS ===
+  // === CORE BUSINESS ===
   {
-    id: '1',
-    name: 'Open Stars',
-    description: 'Air Traffic Control Radar Emulator Game',
-    url: 'https://openstars-emulator.vercel.app',
-    projectPath: '/Users/williammacomber/Projects/openstars',
-    category: 'Games',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    id: 'contractoros',
+    name: 'ContractorOS',
+    description: 'Main contractor management platform',
+    url: 'https://contractoros-web.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/ContractorOS',
+    category: 'Business',
+    openInNewTab: true
   },
   {
-    id: '2',
+    id: 'atc-etc',
     name: 'ATC ETC',
     description: 'Essential Trade Contractors - Official Site',
     url: 'https://www.atc-etc.com',
-    projectPath: '/Users/williammacomber/Projects/etc-website',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/etc-website',
     category: 'Business',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    openInNewTab: true
   },
   {
-    id: '3',
-    name: 'Listing Pixl',
-    description: 'Cape May Real Estate Photography',
-    url: 'https://listingpixl.vercel.app',
-    projectPath: '/Users/williammacomber/Projects/listingpixl',
-    category: 'Business',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  {
-    id: '4',
+    id: 'etc-website',
     name: 'ETC Website',
     description: 'Essential Trade Contractors Website',
     url: 'https://etc-website-ready.vercel.app',
-    projectPath: '/Users/williammacomber/Projects/etc-website',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/etc-website',
     category: 'Business',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    openInNewTab: true
   },
   {
-    id: '5',
+    id: 'essential-trade-contractors',
+    name: 'ETC (Canonical)',
+    description: 'Essential Trade Contractors - canonical deploy',
+    url: 'https://essential-trade-contractors.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/essential-trade-contractors',
+    category: 'Business',
+    openInNewTab: true
+  },
+  {
+    id: 'dtis-portal',
+    name: 'DTIS Portal',
+    description: 'Della Terra Insu - Daily Log & FDTS Tools',
+    url: 'https://atc-etc-portal.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/atc-etc-portal',
+    category: 'Work',
+    openInNewTab: true
+  },
+
+  // === LISTING PIXL ===
+  {
+    id: 'listingpixl',
+    name: 'Listing Pixl',
+    description: 'Cape May Real Estate Photography',
+    url: 'https://listingpixl.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/_Dev_Projects/listing-pixl',
+    category: 'Business',
+    openInNewTab: true
+  },
+  {
+    id: 'listingpixl-2026',
+    name: 'Listing Pixl 2026',
+    description: 'Listing Pixl - 2026 rebuild',
+    url: 'https://listingpixl-2026.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/listingpixl',
+    category: 'Business',
+    openInNewTab: true
+  },
+  {
+    id: 'photo-admin',
+    name: 'Photo Admin',
+    description: 'Listing Pixl photo administration',
+    url: 'https://photo-admin.vercel.app',
+    category: 'Business',
+    openInNewTab: true
+  },
+  {
+    id: 'listingpixl-photo-admin',
+    name: 'Photo Admin (Static)',
+    description: 'Listing Pixl photo admin - static build',
+    url: 'https://listingpixl-photo-admin-static.vercel.app',
+    category: 'Business',
+    openInNewTab: true
+  },
+
+  // === AVIATION ===
+  {
+    id: 'openstars',
+    name: 'Open Stars',
+    description: 'Air Traffic Control Radar Emulator Game',
+    url: 'https://openstars-emulator.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/openstars',
+    category: 'Games',
+    openInNewTab: true
+  },
+  {
+    id: 'macomber-openstars',
+    name: 'Open Stars (Macomber)',
+    description: 'Open Stars - alternate deploy',
+    url: 'https://macomber-openstars.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/OpenStars-Emulator',
+    category: 'Games',
+    openInNewTab: true
+  },
+  {
+    id: 'airtrafficexpert',
+    name: 'Air Traffic Expert',
+    description: 'ATC expert portal & training resource',
+    url: 'https://airtrafficexpert-site.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/airtrafficexpert-site',
+    category: 'Business',
+    openInNewTab: true
+  },
+  {
+    id: 'zulu-pro',
+    name: 'Zulu Pro',
+    description: 'Tactical Aviation Timekeeping & Mission Intel',
+    url: 'https://zulu-time-web-deploy.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/Zulu-time-',
+    category: 'Tools',
+    openInNewTab: true
+  },
+
+  // === FDTS ===
+  {
+    id: 'fdts-brain',
     name: 'FDTS Brain',
     description: 'FDTS Adaptation Specialist - AI Data Extraction',
     url: 'https://brain-weld-five.vercel.app',
-    projectPath: '/Users/williammacomber/Projects/fdts-brain',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/fdts-brain',
     category: 'AI Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    openInNewTab: true
   },
   {
-    id: '6',
+    id: 'fdts-assistant',
     name: 'FDTS Assistant',
     description: 'FDTS Assistant Tool',
     url: 'https://fdts-assistant-zip.vercel.app',
-    projectPath: '/Users/williammacomber/Projects/atc-deploy',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/atc-deploy',
     category: 'Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    openInNewTab: true
   },
   {
-    id: '13',
-    name: 'DTIS Portal',
-    description: 'Della Terra Insù - Daily Log & FDTS Tools',
-    url: 'https://atc-etc.com',
-    projectPath: '/Users/williammacomber/Projects/atc-etc-portal',
-    category: 'Work',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    id: 'fdts-repo',
+    name: 'FDTS Repo (GitHub)',
+    description: 'Source for the National FDTS Assistant',
+    url: 'https://github.com/willmac1wm/FDTS-Adaptation-Tool',
+    icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
+    projectPath: '/Users/williammacomber/.gemini/antigravity/scratch/worldview',
+    category: 'Development',
+    openInNewTab: true
   },
-  // === DEVELOPER TOOLS ===
+
+  // === NEWER PROJECTS ===
   {
-    id: '7',
+    id: 'eve-slack-agent',
+    name: 'Eve (Slack Agent)',
+    description: 'Slack AI agent',
+    url: 'https://eve-slack-agent.vercel.app',
+    category: 'AI Tools',
+    openInNewTab: true
+  },
+  {
+    id: 'contractoros-prototype',
+    name: 'ContractorOS Prototype',
+    description: 'ContractorOS experimental build',
+    url: 'https://contractoros-prototype.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/ContractorOS',
+    category: 'Development',
+    openInNewTab: true
+  },
+  {
+    id: 'pool-wallet',
+    name: 'Pool Wallet',
+    description: 'Shared wallet application',
+    url: 'https://pool-wallet.vercel.app',
+    category: 'Tools',
+    openInNewTab: true
+  },
+  {
+    id: 'worldview',
+    name: 'WorldView',
+    description: 'Geospatial Intelligence Command Center',
+    url: 'https://github.com/willmac1wm',
+    projectPath: '/Users/williammacomber/.gemini/antigravity/scratch/worldview',
+    category: 'Development',
+    openInNewTab: true
+  },
+
+  {
+    id: 'linkvault',
+    name: 'Secure LinkVault',
+    description: 'This app launcher (self-link)',
+    url: 'https://secure-linkvault.vercel.app',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/secure-linkvault',
+    category: 'Tools',
+    openInNewTab: true
+  },
+  // === INFRASTRUCTURE ===
+  {
+    id: 'github',
     name: 'GitHub',
     description: 'Your GitHub repositories',
     url: 'https://github.com/willmac1wm',
     icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
     category: 'Development',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    openInNewTab: true
   },
   {
-    id: '8',
+    id: 'vercel',
     name: 'Vercel',
     description: 'Deployment & Hosting Platform',
     url: 'https://vercel.com/dashboard',
     icon: 'https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico',
     category: 'Development',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    openInNewTab: true
   },
   {
-    id: '9',
+    id: 'supabase',
+    name: 'Supabase',
+    description: 'Database & backend dashboard',
+    url: 'https://supabase.com/dashboard',
+    category: 'Development',
+    openInNewTab: true
+  },
+  {
+    id: 'netlify',
     name: 'Netlify',
     description: 'Web Hosting & Automation',
     url: 'https://app.netlify.com',
     icon: 'https://www.netlify.com/favicon/icon.svg',
     category: 'Development',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    openInNewTab: true
   },
+
   // === AI TOOLS ===
   {
-    id: '10',
-    name: 'Google AI Studio',
-    description: 'Build with Gemini AI',
-    url: 'https://aistudio.google.com',
-    icon: 'https://www.gstatic.com/lamda/images/favicon_v1_150160cddff7f294ce30.svg',
-    category: 'AI Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  {
-    id: '11',
-    name: 'ChatGPT',
-    description: 'OpenAI Chat Assistant',
-    url: 'https://chat.openai.com',
-    icon: 'https://chat.openai.com/favicon.ico',
-    category: 'AI Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  {
-    id: '12',
+    id: 'claude',
     name: 'Claude',
     description: 'Anthropic AI Assistant',
     url: 'https://claude.ai',
     icon: 'https://claude.ai/favicon.ico',
     category: 'AI Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  // === YOUR APPS ===
-  {
-    id: '14',
-    name: 'Zulu Pro',
-    description: 'Tactical Aviation Timekeeping & Mission Intel',
-    url: 'https://zulu-time-web-deploy.vercel.app',
-    projectPath: '/Users/williammacomber/airtrafficexpert-site',
-    category: 'Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    openInNewTab: true
   },
   {
-    id: '15',
-    name: 'National FDTS Assistant',
-    description: 'National dashboard and adaptation tool for FDTS',
-    url: 'https://fdts-adaptation-tool.netlify.app/',
-    projectPath: '/Users/williammacomber/Desktop/Adaptation',
-    category: 'Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    id: 'chatgpt',
+    name: 'ChatGPT',
+    description: 'OpenAI Chat Assistant',
+    url: 'https://chat.openai.com',
+    icon: 'https://chat.openai.com/favicon.ico',
+    category: 'AI Tools',
+    openInNewTab: true
   },
   {
-    id: '16',
-    name: 'National FDTS Assistant (Deployed)',
-    description: 'National dashboard and adaptation tool for FDTS (Live Version)',
-    url: 'https://fdts-adaptation-tool.netlify.app/',
-    projectPath: '/Users/williammacomber/Desktop/Adaptation',
-    category: 'Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  {
-    id: '17',
-    name: 'FDTS Repo (GitHub)',
-    description: 'Source Code for the National FDTS Assistant',
-    url: 'https://github.com/willmac1wm/FDTS-Adaptation-Tool',
-    icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
-    projectPath: '/Users/williammacomber/Desktop/Adaptation',
-    category: 'Development',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  {
-    id: '18',
-    name: 'WorldView',
-    description: 'Geospatial Intelligence Command Center - local project',
-    url: 'https://github.com/willmac1wm',
-    projectPath: '/Users/williammacomber/Desktop/WorldView',
-    category: 'Development',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
+    id: 'google-ai-studio',
+    name: 'Google AI Studio',
+    description: 'Build with Gemini AI',
+    url: 'https://aistudio.google.com',
+    icon: 'https://www.gstatic.com/lamda/images/favicon_v1_150160cddff7f294ce30.svg',
+    category: 'AI Tools',
+    openInNewTab: true
   }
 ]
 
@@ -324,34 +399,49 @@ const DEFAULT_APPS = isLocalhost
   ? [...LOCAL_APPS, ...PRODUCTION_APPS.slice(0, 2)]
   : PRODUCTION_APPS
 
+const STORAGE_KEY = 'linkvault-apps'
+const REMOVED_KEY = 'linkvault-removed-defaults'
+
 function App() {
   const [apps, setApps] = useState([])
+  const [loaded, setLoaded] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [isHelpOpen, setIsHelpOpen] = useState(false)
   const [editingApp, setEditingApp] = useState(null)
 
-  // Load apps from localStorage on mount, or use defaults
+  // Load apps: merge baked-in defaults with anything saved locally.
+  // Defaults live in the deployed bundle, so a browser storage purge
+  // (Safari clears script-writable storage after 7 idle days) can never
+  // lose the curated list -- it always comes back from the code.
   useEffect(() => {
-    const savedApps = localStorage.getItem('linkvault-apps')
-    if (savedApps) {
-      const parsed = JSON.parse(savedApps)
-      // If saved apps exist and have items, use them
-      if (parsed.length > 0) {
-        setApps(parsed)
-      } else {
-        // Otherwise load defaults
-        setApps(DEFAULT_APPS)
-      }
-    } else {
-      // No saved apps, load defaults
-      setApps(DEFAULT_APPS)
+    let saved = []
+    let removed = []
+    try { saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]') } catch { saved = [] }
+    try { removed = JSON.parse(localStorage.getItem(REMOVED_KEY) || '[]') } catch { removed = [] }
+    if (!Array.isArray(saved)) saved = []
+    if (!Array.isArray(removed)) removed = []
+
+    const savedById = new Map(saved.map((a) => [a.id, a]))
+    const defaultIds = new Set(DEFAULT_APPS.map((d) => d.id))
+
+    // Defaults first (honoring user edits + deletions), then user-added apps
+    const merged = DEFAULT_APPS
+      .filter((d) => !removed.includes(d.id))
+      .map((d) => (savedById.has(d.id) ? { ...d, ...savedById.get(d.id) } : d))
+
+    for (const a of saved) {
+      if (!defaultIds.has(a.id)) merged.push(a)
     }
+
+    setApps(merged)
+    setLoaded(true)
   }, [])
 
-  // Save apps to localStorage whenever apps change
+  // Save apps to localStorage whenever apps change (after initial load)
   useEffect(() => {
-    localStorage.setItem('linkvault-apps', JSON.stringify(apps))
-  }, [apps])
+    if (!loaded) return
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(apps))
+  }, [apps, loaded])
 
   const handleAddApp = (appData) => {
     const newApp = {
@@ -373,6 +463,16 @@ function App() {
 
   const handleDeleteApp = (id) => {
     if (confirm('Are you sure you want to delete this app?')) {
+      // If this is a baked-in default, remember the deletion so the merge
+      // on next load doesn't resurrect it.
+      if (DEFAULT_APPS.some((d) => d.id === id)) {
+        let removed = []
+        try { removed = JSON.parse(localStorage.getItem(REMOVED_KEY) || '[]') } catch { removed = [] }
+        if (!Array.isArray(removed)) removed = []
+        if (!removed.includes(id)) {
+          localStorage.setItem(REMOVED_KEY, JSON.stringify([...removed, id]))
+        }
+      }
       setApps(apps.filter(app => app.id !== id))
     }
   }
@@ -421,7 +521,8 @@ function App() {
           <button
             onClick={() => {
               if (confirm('Reset all apps to defaults? This will restore the original app list with Edit in Cursor buttons.')) {
-                localStorage.removeItem('linkvault-apps')
+                localStorage.removeItem(STORAGE_KEY)
+                localStorage.removeItem(REMOVED_KEY)
                 setApps(DEFAULT_APPS)
               }
             }}
