@@ -99,16 +99,6 @@ const LOCAL_APPS = [
     createdAt: new Date().toISOString()
   },
   {
-    id: '10',
-    name: 'National FDTS Assistant (Deployed)',
-    description: 'National dashboard and adaptation tool for FDTS (Live Version)',
-    url: 'https://fdts-adaptation-tool.netlify.app/',
-    projectPath: '/Users/williammacomber/.gemini/antigravity/scratch/worldview',
-    category: 'Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  {
     id: '11',
     name: 'FDTS Repo (GitHub)',
     description: 'Source Code for the National FDTS Assistant',
