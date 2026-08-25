@@ -159,6 +159,32 @@ const PRODUCTION_APPS = [
     openInNewTab: true
   },
   {
+    id: 'firewire',
+    name: 'Cape May Fire Wire',
+    description: 'Public-safety scanner - AI incident feed. Public tunnel',
+    url: 'https://fanfare-rimmed-cosponsor.ngrok-free.dev',
+    projectPath: 'Legion: C:/capemay-scanner',
+    category: 'Work',
+    openInNewTab: true
+  },
+  {
+    id: 'firewire-lan',
+    name: 'Fire Wire (LAN)',
+    description: 'Same dashboard direct on the home network - faster',
+    url: 'http://192.168.12.243:8000',
+    projectPath: 'Legion: C:/capemay-scanner',
+    category: 'Work',
+    openInNewTab: true
+  },
+  {
+    id: 'firewire-health',
+    name: 'Fire Wire Health',
+    description: 'Ingestion status - flags if transmissions stop arriving',
+    url: 'http://192.168.12.243:8000/health',
+    category: 'Work',
+    openInNewTab: true
+  },
+  {
     id: 'dtis-portal',
     name: 'DTIS Portal',
     description: 'Della Terra Insu - Daily Log & FDTS Tools',
