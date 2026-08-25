@@ -291,9 +291,19 @@ const PRODUCTION_APPS = [
     openInNewTab: true
   },
   {
+    id: 'gods-eye-view',
+    name: "God's Eye View",
+    description: 'Bilawal Sidhu OSINT globe - Cesium, MIT licensed, cloned locally',
+    url: 'https://github.com/bilawalsidhu/gods-eye-view',
+    icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/gods-eye-view',
+    category: 'Development',
+    openInNewTab: true
+  },
+  {
     id: 'worldview',
     name: 'WorldView',
-    description: 'Geospatial Intelligence Command Center',
+    description: 'My earlier geospatial build (deck.gl, demo data)',
     url: 'https://github.com/willmac1wm',
     projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/worldview',
     category: 'Development',
