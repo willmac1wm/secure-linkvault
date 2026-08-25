@@ -133,8 +133,8 @@ const PRODUCTION_APPS = [
   },
   {
     id: 'atc-etc',
-    name: 'ATC ETC',
-    description: 'Essential Trade Contractors - Official Site',
+    name: 'ATC ETC (Portal)',
+    description: 'Custom domain - currently serves the DTIS Secure Portal',
     url: 'https://www.atc-etc.com',
     projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/etc-website',
     category: 'Business',
