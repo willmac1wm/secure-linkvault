@@ -126,7 +126,7 @@ const PRODUCTION_APPS = [
     id: 'contractoros',
     name: 'ContractorOS',
     description: 'Main contractor management platform',
-    url: 'https://contractoros-web.vercel.app',
+    url: 'https://web-five-nu-89.vercel.app',
     projectPath: '/Users/williammacomber/Desktop/ContractorOS',
     category: 'Business',
     openInNewTab: true
