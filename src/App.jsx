@@ -125,7 +125,7 @@ const PRODUCTION_APPS = [
   {
     id: 'contractoros',
     name: 'ContractorOS',
-    description: 'Main contractor management platform',
+    description: 'Contractor management - passwordless, emails you a sign-in link',
     url: 'https://web-five-nu-89.vercel.app',
     projectPath: '/Users/williammacomber/Desktop/ContractorOS',
     category: 'Business',
@@ -293,7 +293,16 @@ const PRODUCTION_APPS = [
   {
     id: 'gods-eye-view',
     name: "God's Eye View",
-    description: 'Bilawal Sidhu OSINT globe - Cesium, MIT licensed, cloned locally',
+    description: 'OSINT globe - live flights, satellites, vessels. Run: npm run dev',
+    url: 'http://localhost:4173',
+    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/gods-eye-view',
+    category: 'Development',
+    openInNewTab: true
+  },
+  {
+    id: 'gods-eye-view-repo',
+    name: "God's Eye View (repo)",
+    description: 'Upstream source - MIT, Bilawal Sidhu',
     url: 'https://github.com/bilawalsidhu/gods-eye-view',
     icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
     projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/gods-eye-view',
@@ -302,9 +311,9 @@ const PRODUCTION_APPS = [
   },
   {
     id: 'worldview',
-    name: 'WorldView',
-    description: 'My earlier geospatial build (deck.gl, demo data)',
-    url: 'https://github.com/willmac1wm',
+    name: 'WorldView (mine)',
+    description: 'My earlier geospatial build - deck.gl, demo data, superseded by GEV',
+    url: 'https://github.com/willmac1wm/secure-linkvault',
     projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/worldview',
     category: 'Development',
     openInNewTab: true
