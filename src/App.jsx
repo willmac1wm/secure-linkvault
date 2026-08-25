@@ -293,9 +293,9 @@ const PRODUCTION_APPS = [
   {
     id: 'gods-eye-view',
     name: "God's Eye View",
-    description: 'OSINT globe - live flights, satellites, vessels. Run: npm run dev',
-    url: 'http://localhost:4173',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/gods-eye-view',
+    description: 'OSINT globe - live flights, satellites, vessels. Runs on Legion 24/7',
+    url: 'http://192.168.12.243:4173',
+    projectPath: 'Legion: C:/Users/willm/gods-eye-view',
     category: 'Development',
     openInNewTab: true
   },
