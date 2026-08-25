@@ -93,7 +93,7 @@ const LOCAL_APPS = [
     name: 'National FDTS Assistant',
     description: 'National dashboard and adaptation tool for FDTS',
     url: 'http://localhost:5173',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/worldview',
+    projectPath: 'Legion: C:/Users/willm/worldview',
     category: 'Development',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -113,7 +113,7 @@ const LOCAL_APPS = [
     name: 'WorldView',
     description: 'Geospatial Intelligence Command Center — Live satellites, flights, vessels & TFRs',
     url: 'http://localhost:8080/worldview.html',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/worldview',
+    projectPath: 'Legion: C:/Users/willm/worldview',
     category: 'Tools',
     openInNewTab: true,
     createdAt: new Date().toISOString()
@@ -259,7 +259,7 @@ const PRODUCTION_APPS = [
     description: 'Source for the National FDTS Assistant',
     url: 'https://github.com/willmac1wm/FDTS-Adaptation-Tool',
     icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/worldview',
+    projectPath: 'Legion: C:/Users/willm/worldview',
     category: 'Development',
     openInNewTab: true
   },
@@ -305,16 +305,16 @@ const PRODUCTION_APPS = [
     description: 'Upstream source - MIT, Bilawal Sidhu',
     url: 'https://github.com/bilawalsidhu/gods-eye-view',
     icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/gods-eye-view',
+    projectPath: 'Legion: C:/Users/willm/gods-eye-view',
     category: 'Development',
     openInNewTab: true
   },
   {
     id: 'worldview',
     name: 'WorldView (mine)',
-    description: 'My earlier geospatial build - deck.gl, demo data, superseded by GEV',
-    url: 'https://github.com/willmac1wm/secure-linkvault',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/worldview',
+    description: 'My earlier geospatial build + ATC workload model. Runs on Legion',
+    url: 'http://192.168.12.243:4174/worldview.html',
+    projectPath: 'Legion: C:/Users/willm/worldview',
     category: 'Development',
     openInNewTab: true
   },
