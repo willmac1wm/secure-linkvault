@@ -49,26 +49,6 @@ const LOCAL_APPS = [
     createdAt: new Date().toISOString()
   },
   {
-    id: '5',
-    name: 'ATC Deploy',
-    description: 'Air Traffic Control Deployment System',
-    url: 'http://localhost:3003',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/atc-deploy',
-    category: 'Development',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  {
-    id: '6',
-    name: 'FDTS Brain',
-    description: 'FDTS Adaptation Specialist - AI Data Extraction',
-    url: 'http://localhost:5175',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/fdts-brain',
-    category: 'AI Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  {
     id: '7',
     name: 'Secure LinkVault',
     description: 'This App Launcher',
@@ -88,36 +68,6 @@ const LOCAL_APPS = [
     openInNewTab: true,
     createdAt: new Date().toISOString()
   },
-  {
-    id: '9',
-    name: 'National FDTS Assistant',
-    description: 'National dashboard and adaptation tool for FDTS',
-    url: 'http://localhost:5173',
-    projectPath: 'Legion: C:/Users/willm/worldview',
-    category: 'Development',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  {
-    id: '11',
-    name: 'FDTS Repo (GitHub)',
-    description: 'Source Code for the National FDTS Assistant',
-    url: 'https://github.com/willmac1wm/FDTS-Adaptation-Tool',
-    icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
-    category: 'Development',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  },
-  {
-    id: '12',
-    name: 'WorldView',
-    description: 'Geospatial Intelligence Command Center — Live satellites, flights, vessels & TFRs',
-    url: 'http://localhost:8080/worldview.html',
-    projectPath: 'Legion: C:/Users/willm/worldview',
-    category: 'Tools',
-    openInNewTab: true,
-    createdAt: new Date().toISOString()
-  }
 ]
 
 const PRODUCTION_APPS = [
@@ -260,36 +210,6 @@ const PRODUCTION_APPS = [
     openInNewTab: true
   },
 
-  // === FDTS ===
-  {
-    id: 'fdts-brain',
-    name: 'FDTS Brain',
-    description: 'FDTS Adaptation Specialist - AI Data Extraction',
-    url: 'https://brain-weld-five.vercel.app',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/fdts-brain',
-    category: 'AI Tools',
-    openInNewTab: true
-  },
-  {
-    id: 'fdts-assistant',
-    name: 'FDTS Assistant',
-    description: 'FDTS Assistant Tool',
-    url: 'https://fdts-assistant-zip.vercel.app',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/atc-deploy',
-    category: 'Tools',
-    openInNewTab: true
-  },
-  {
-    id: 'fdts-repo',
-    name: 'FDTS Repo (GitHub)',
-    description: 'Source for the National FDTS Assistant',
-    url: 'https://github.com/willmac1wm/FDTS-Adaptation-Tool',
-    icon: 'https://github.githubassets.com/favicons/favicon-dark.svg',
-    projectPath: 'Legion: C:/Users/willm/worldview',
-    category: 'Development',
-    openInNewTab: true
-  },
-
   // === NEWER PROJECTS ===
   {
     id: 'eve-slack-agent',
@@ -297,15 +217,6 @@ const PRODUCTION_APPS = [
     description: 'Slack AI agent',
     url: 'https://eve-slack-agent.vercel.app',
     category: 'AI Tools',
-    openInNewTab: true
-  },
-  {
-    id: 'contractoros-prototype',
-    name: 'ContractorOS Prototype',
-    description: 'ContractorOS experimental build',
-    url: 'https://contractoros-prototype.vercel.app',
-    projectPath: '/Users/williammacomber/Desktop/ContractorOS',
-    category: 'Development',
     openInNewTab: true
   },
   {
@@ -335,15 +246,6 @@ const PRODUCTION_APPS = [
     category: 'Development',
     openInNewTab: true
   },
-  {
-    id: 'worldview',
-    name: 'WorldView (mine)',
-    description: 'My earlier geospatial build + ATC workload model. Runs on Legion',
-    url: 'http://192.168.12.243:4174/worldview.html',
-    projectPath: 'Legion: C:/Users/willm/worldview',
-    category: 'Development',
-    openInNewTab: true
-  },
 
   {
     id: 'linkvault',
@@ -351,15 +253,6 @@ const PRODUCTION_APPS = [
     description: 'This app launcher (self-link)',
     url: 'https://secure-linkvault.vercel.app',
     projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/secure-linkvault',
-    category: 'Tools',
-    openInNewTab: true
-  },
-  {
-    id: 'resolve-ai',
-    name: 'ResolveAI',
-    description: 'Rewrite Your Relationship - couples app',
-    url: 'https://resolve-ai-one.vercel.app',
-    projectPath: '/Users/williammacomber/Desktop/Desktop_Cleanup_2026-06-24/awesome projects/ResolveAI-App',
     category: 'Tools',
     openInNewTab: true
   },
